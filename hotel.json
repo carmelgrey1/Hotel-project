@@ -8,4 +8,12 @@
             "description": "Beautiful Luxurious Rooms"
         }
     },
+      {
+        "model": "shop.category",
+        "pk": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+        "fields": {
+            "name": "Cotton cushions",
+            "description": "Nice soft cotton cushions"
+        }
+    },
   ]
