@@ -25,4 +25,32 @@
             "description": "We are proud to promote quality Irish food served in a relaxed environment, with a friendly professional service in each of our dining outlets."
         }
     },
+       {
+        "model": "shop.product",
+        "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
+        "fields": {
+            "name": "Double Standard Room",
+            "description": "a standard room is likely the same as a queen or a single room, great for a solo traveler or a couple. Expect a double bed. ",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "125.00",
+            "availability": 2,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
+           {
+        "model": "shop.product",
+        "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
+        "fields": {
+            "name": "Double Standard Room",
+            "description": "a standard room is likely the same as a queen or a single room, great for a solo traveler or a couple. Expect a double bed. ",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "125.00",
+            "availability": 2,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
   ]
