@@ -1,1 +1,11 @@
 ## hotel.json
+[
+    {
+        "model": "shop.category",
+        "pk": "116fa26d-6580-4d1b-a319-8ad526551cb3",
+        "fields": {
+            "name": "Polyester cushions",
+            "description": "Nice Polyester cushions"
+        }
+    },
+  ]
