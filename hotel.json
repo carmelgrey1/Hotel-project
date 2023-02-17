@@ -21,8 +21,8 @@
         "model": "shop.category",
         "pk": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
         "fields": {
-            "name": "Spa",
-            "description": "Pamper yourself in our Revive Garden Spa & Beauty Rooms, where time is left at the door and you can let yourself unwind and relax in our sanctuary of pure bliss! Revive and rejuvenate your mind & body with our heavenly range of treatments."
+            "name": "Restraunt",
+            "description": "We are proud to promote quality Irish food served in a relaxed environment, with a friendly professional service in each of our dining outlets."
         }
     },
   ]
