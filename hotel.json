@@ -1,4 +1,3 @@
-## shop.json
 [
     {
         "model": "shop.category",
@@ -21,7 +20,7 @@
         "model": "shop.category",
         "pk": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
         "fields": {
-            "name": "Restraunt",
+            "name": "Restaurant",
             "description": "We are proud to promote quality Irish food served in a relaxed environment, with a friendly professional service in each of our dining outlets."
         }
     },
@@ -30,7 +29,7 @@
         "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
         "fields": {
             "name": "Double Standard Room",
-            "description": "a standard room is likely the same as a queen or a single room, great for a solo traveler or a couple. Expect a double bed. ",
+            "description": "Our standard room is same as a queen or a single room, great for a solo traveler or a couple. Expect a double bed. ",
             "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
             "price": "125.00",
             "availability": 2,
@@ -43,11 +42,25 @@
         "model": "shop.product",
         "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
         "fields": {
-            "name": "Double Standard Room",
-            "description": "a standard room is likely the same as a queen or a single room, great for a solo traveler or a couple. Expect a double bed. ",
+            "name": "Superior Double Room",
+            "description": "For the person wanting something a bit luxurious, our Superior Double room is an excellent choice. We offer many additives, such as a lovely balcony to overlook the hotel, as well as a walk-in shower, and complimentary offerings.",
             "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
-            "price": "125.00",
-            "availability": 2,
+            "price": "175.00",
+            "availability": 3,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
+        "fields": {
+            "name": "Family Room",
+            "description": "For the families looking to spend time together, our family room is perfect for social interaction. Fit for activities like group talking, reading, games, television and other activities, as well as many of our other additives.",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "200.00",
+            "availability": 3,
             "available": true,
             "created": "2022-11-09T14:28:17.802Z",
             "updated": "2022-11-09T14:28:17.802Z"
