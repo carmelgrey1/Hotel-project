@@ -28,7 +28,7 @@
         "model": "shop.product",
         "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
         "fields": {
-            "name": "Double Standard Room",
+            "name": "Standard Room",
             "description": "Our standard room is same as a queen or a single room, great for a solo traveler or a couple. Expect a double bed. ",
             "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
             "price": "125.00",
@@ -42,11 +42,25 @@
         "model": "shop.product",
         "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
         "fields": {
-            "name": "Superior Double Room",
-            "description": "For the person wanting something a bit luxurious, our Superior Double room is an excellent choice. We offer many additives, such as a lovely balcony to overlook the hotel, as well as a walk-in shower, and complimentary offerings.",
+            "name": "Superior Room",
+            "description": "If you're looking for something a bit luxurious, our Superior Room is an excellent choice. We offer many additives, such as a lovely balcony to overlook the hotel, as well as a walk-in shower, and complimentary offerings.",
             "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
             "price": "175.00",
             "availability": 3,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
+        "fields": {
+            "name": "Studio Room",
+            "description": "Our excellent Studio Room is for the business-oriented guest. Work fast, comfortably and peacefully in our cozy space, including amenities like a television, and a multi-functional bed/couch to unwind after a long day of work. Our Studio Room is also equipped with powerful computer equipment and high-speed Wi-Fi to maximise your workload on a busy day.",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "300.00",
+            "availability": 2,
             "available": true,
             "created": "2022-11-09T14:28:17.802Z",
             "updated": "2022-11-09T14:28:17.802Z"
@@ -60,10 +74,67 @@
             "description": "For the families looking to spend time together, our family room is perfect for social interaction. Fit for activities like group talking, reading, games, television and other activities, as well as many of our other additives.",
             "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
             "price": "200.00",
-            "availability": 3,
+            "availability": 2,
             "available": true,
             "created": "2022-11-09T14:28:17.802Z",
             "updated": "2022-11-09T14:28:17.802Z"
         }
     },
+    {
+        "model": "shop.product",
+        "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
+        "fields": {
+            "name": "Deluxe Room",
+            "description": "Featuring a spacious king-sized bed and beautiful marble-designed facilities, our Deluxe King Room invites you to relax and enjoy the five-star surroundings. Feel like a king with our beautiful comfortable bed linens, velour robes and elegant slippers. Endulge in our modern amenities, ",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "250.00",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
+        "fields": {
+            "name": "Accessible Room",
+            "description": "At the Mellow Hill Hotel, we take pride in everyone being able to indulge in a comfortable, relaxing experience. Our Accessible Room, designed with an Open Plan plan in mind, have been designed in a thoughtful way, ensuring that a guest suffering with disabilities to have the same comfortable experience as any other guest. This room is complete with many features for guests with disabilities, such as more accessible heights for kitchen amenities, wider doorways for ease of access, and an emergency alarm installed in many areas to ensure their safety in our hotel.",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "135.00",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
+        "fields": {
+            "name": "Luxury Villa",
+            "description": "Elegance. Privacy. An unforgettable experience. Our special Villa at the Mellow Hill Hotel is the perfect summer getaway for any of our guests to indulge in! Take in the amazing view, surrounded by a bright blue sea, surrounded by a luxuriant display of flowers and gardens. Including all of the features our rooms at the Mellow Hill Hotel have to offer, be sure to book today for an exclusive, peaceful and elegant stay!",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "250.00",
+            "availability": 1,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
+        "fields": {
+            "name": "Signature Suite",
+            "description": "This is our wonderful Signature Suite, one of the most relaxing rooms for our guests. This large, stylish and elegant suite is ripe with facilities and features, which make the experience unforgettable for you. Sleep soundly with our premium bed linens, and feel ready and relaxed for the morning with our gorgeous en-suite bathroom, complete with bathroom amenities included. Also included is our balcony, allowing you to take in the amazing view that the Mellow Hill Hotel has to offer.",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "300.00",
+            "availability": 2,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
+    
   ]
