@@ -18,7 +18,7 @@
        
       {
         "model": "shop.category",
-        "pk": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+        "pk": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
         "fields": {
             "name": "Restaurant",
             "description": "We are proud to promote quality Irish food served in a relaxed environment, with a friendly professional service in each of our dining outlets."
@@ -136,5 +136,263 @@
             "updated": "2022-11-09T14:28:17.802Z"
         }
     },
+    {
+        "model": "shop.product",
+        "pk": "9ed69d1a-29d0-4f4e-965e-7565101579bb",
+        "fields": {
+            "name": "Breakfast",
+            "description": "The very best days start with a good breakfast and you won’t find better than our wide range breakfast items. Guests can enjoy breakfast in the restaurant from 7:30am to 10:30am.",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "125.00",
+            "availability": 10,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "5b4e628e-78d8-4988-bf2e-3d430e9f5fca",
+        "fields": {
+            "name": "Lunch",
+            "description": "We serve a beautiful lunch here at the restaurant with a menu you dont want to miss. We serve lunch from 12 noon to 3pm.",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "125.00",
+            "availability": 10,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "dad33e3a-268b-4207-920b-eba8e20e7067",
+        "fields": {
+        "name": "Dinner",
+        "description": "Welcome to our stunning restraunt. Come be apart of our cusine experince where you will set your pallete alight. Dinner is served from 6pm-9:30pm",
+        "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+        "price": "125.00",
+        "availability": 5,
+        "available": true,
+        "created": "2022-11-09T14:28:17.802Z",
+        "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
+    
+    
+        {
+            "model": "shop.product",
+            "pk": "39d51f03-3283-4ced-ab3d-485693f0f40d",
+            "fields": {
+            "name": "AVOCADO BENEDICT",
+            "description": "Avocado, two poached hen’s eggs on soda farls, hollandaise sauce and sesame seeds",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "13.50",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }},
+        
+    
+            {
+                "model": "shop.product",
+                "pk": "d236d974-34a0-4f30-8b6b-25d733c8a658",
+                "fields": {
+                "name": "SCRAMBLED EGGS AND SMOKED SALMON",
+                "description": "Scrambled hen’s eggs, organic smoked salmon",
+                "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+                "price": "14.95",
+                "availability": 5,
+                "available": true,
+                "created": "2022-11-09T14:28:17.802Z",
+                "updated": "2022-11-09T14:28:17.802Z"
+                }
+            },
+        {
+            "model": "shop.product",
+            "pk": "2f246a48-bd9a-4844-bd31-f5b86861d144",
+            "fields": {
+            "name": "HOT BUTTERMILK PANCAKES WITH BACON",
+            "description": "Blueberries, lemon balm and maple syrup",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "14.95",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+    {
+            "model": "shop.product",
+            "pk": "a44649a3-6d92-4b9d-a68b-12022bfaa2d8",
+            "fields": {
+            "name": "FULL IRISH BREAKFAST",
+            "description": "Smoked streaky bacon, sausages, fried hen’s eggs, black pudding, roast plum tomatoes, grilled flat mushroom and baked beans Served with a choice of white, granary or non-gluten toast",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "18.95",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+{
+            "model": "shop.product",
+            "pk": "2f6ec8a6-80ca-4611-9353-320e9b5941f3",
+            "fields": {
+            "name": "CRUSHED AVOCADO AND ROASTED TOMATO ",
+            "description": "On chargrilled Irish soda bread with pomegranate, sesame, toasted seeds and coriander",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "11.95",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+        
+        {
+            "model": "shop.product",
+            "pk": "bba02772-78cc-422f-b839-a2d41b523610",
+            "fields": {
+            "name": "Braised Beef Ciabatta",
+            "description": "Braised Beef Brisket, Gouda Cheese, Grilled Asparagus, Chili Butter, Gem Lettuce, Garlic Aioli & Zhoug",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "15.50",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+{
+            "model": "shop.product",
+            "pk": "734d6320-06db-445b-9cc5-f45b004133ee",
+            "fields": {
+            "name": "Fish & Chips",
+            "description": "Hop House Battered Cod Filet, Tartar Sauce, Jalapeno Tomato Relish, Lemon, House Cut Chips",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "22.00",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+{
+            "model": "shop.product",
+            "pk": "0168ddf5-717c-4845-83dc-31883fdd4674",
+            "fields": {
+            "name": "Vegan Rigatoni",
+            "description": "Sautéed Courgettes, Spinach, Heirloom Tomato, Basil & Jalapeno Dressing, Roasted Pine Nuts, Vegan Parmesan Cheese Shavings",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "18.00",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+{
+            "model": "shop.product",
+            "pk": "e29c69cc-b78b-4128-b78e-11abc6f73cd8",
+            "fields": {
+            "name": "Chicken Caesar",
+            "description": "Baby Gem, Bacon Lardons, Parmesan Cheese, Sun-Dried Tomato, Croutons, Soft Boiled Egg, Caesar Dressing ",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "15.00",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+{
+            "model": "shop.product",
+            "pk": "faba2cac-f9d3-4dc3-a697-8618d7f51fee",
+            "fields": {
+            "name": "Soup Of The Day",
+            "description": "Served With Homemade Guinness Bread",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "7.50",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+        },
+        
+        {
+            "model": "shop.product",
+            "pk": "58f144ee-d132-43ee-ae14-3d7f8b7ec6f4",
+            "fields": {
+            "name": "9oz Sirloin Steak",
+            "description": "Baked Portobello Mushroom, Balsamic Glazed Cherry Vine Tomato, Watercress, Hand Cut Chips, Zhoug, Wholegrain Mustard Jus",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "30.00",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+
+{
+            "model": "shop.product",
+            "pk": "d35e8e06-933f-4ded-b7db-80223d8ebe18",
+            "fields": {
+            "name": "Atlantic Salmon",
+            "description": "Champ Mash, mussels, Jerusalem artichoke, buttermilk, dill, salty fingers",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "26.00",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+{
+            "model": "shop.product",
+            "pk": "7ba26bcd-7e9e-4c09-97c1-3c83e4b5a539",
+            "fields": {
+            "name": "BURGER",
+            "description": "Dubliner cheddar, sticky onions, pickles, tomato, lettuce, burger sauce, fries",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "19.00",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+{
+            "model": "shop.product",
+            "pk": "6bea139d-216c-434e-b0c7-ddefea437600",
+            "fields": {
+            "name": "GNOCCHI",
+            "description": "Potato Gnocchi, Pumpkin, Mushroom, Pecorino, Mortadella, Pistachio",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "21.90",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+{
+            "model": "shop.product",
+            "pk": "e18f79c5-5de4-4b4a-865c-d028119d7b01",
+            "fields": {
+            "name": "BUTTERNUT SQUASH RISOTTO",
+            "description": "Roast Italian onions, fried sage, ricotta",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "19.00",
+            "availability": 5,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        }
     
   ]
