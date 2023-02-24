@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static %}
+{% block metadescription %}
+{% if category %}
+{{ category.description|truncatewords:155 }}
+{% else %}
+Welcome Mellow Hills the most beautiful 5 star hotel in Ireland.
+{% endif %}
+{% endblock %}
+{% block title %}
+{% if category %}
+{{ category.name }} - Mellow Hills
+{% else %}
+See Our Cushion Collection - Mellow Hills
+{% endif %}
+{% endblock %}
+{% block content %}
+<!--Breadcrumb navigation-->
+{% if category %}
+<div>
+<div>
+<p><a href="{% url 'shop:all_products' %}">Our Product Collection</a> | {{category.name}}</p>
+</div>
+</div>
+{% endif %}
+<div>
+{% if category %}
+<img src="{{category.image.url}}" alt="{{category.name}}">
+</div>
+<br>
+5
+<div>
+<h1>{{category.name}}</h1>
+<p>{{category.description}}</p>
+</div>
+{% else %}
+<img src="{% static 'images/banner.jpg' %}" alt="Our Products Collection">
+</div>
+<br>
+<div>
+<h1 >Our Products Collection</h1>
+<p>Finding the perfect hotel to stay at can be difficult when you have so much choice, but here at Mellow Hills you dont need to look twice because of our beautiful range of rooms and amenities. You can dine at our michellen star restraunt, relax and unwind in our hotel spa and sleep peacefully in our memory foam beds.</p>
+</div>
+{% endif %}
+<div>
+<div>
+{% for product in prods %}
+<div>
+<div>
+<a class ="img" href=""><img src="{{product.image.url}}" alt="{{product.name}}"></a>
+<div>
+<h4>{{product.name}}</h4>
+<p>€{{product.price}}</p>
+</div>
+</div>
+</div>
+{% endfor %}
+</div>
+6
+<br>
+</div>
+{% endblock %}
