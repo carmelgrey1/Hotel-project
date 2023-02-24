@@ -1,7 +1,7 @@
 [
     {
         "model": "shop.category",
-        "pk": "116fa26d-6580-4d1b-a319-8ad526551cb3",
+        "pk": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
         "fields": {
             "name": "Room",
             "description": "Beautiful Luxurious Rooms"
@@ -9,7 +9,7 @@
     },
       {
         "model": "shop.category",
-        "pk": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+        "pk":"116fa26d-6580-4d1b-a319-8ad526551cb3",
         "fields": {
             "name": "Spa",
             "description": "Pamper yourself in our Revive Garden Spa & Beauty Rooms, where time is left at the door and you can let yourself unwind and relax in our sanctuary of pure bliss! Revive and rejuvenate your mind & body with our heavenly range of treatments."
@@ -186,7 +186,7 @@
             "fields": {
             "name": "AVOCADO BENEDICT",
             "description": "Avocado, two poached hen’s eggs on soda farls, hollandaise sauce and sesame seeds",
-            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "category": "983019f-a1ef-4bdd-a01b-bab3682769a99",
             "price": "13.50",
             "availability": 5,
             "available": true,
@@ -393,6 +393,78 @@
             "created": "2022-11-09T14:28:17.802Z",
             "updated": "2022-11-09T14:28:17.802Z"
             }
+        },
+{
+            "model": "shop.product",
+            "pk": "",
+            "fields": {
+            "name": "Couples Packages",
+            "description": "",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "19.00",
+            "availability": 8,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+{
+            "model": "shop.product",
+            "pk": "",
+            "fields": {
+            "name": "Relax Packages",
+            "description": "",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "19.00",
+            "availability": 10,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+{
+            "model": "shop.product",
+            "pk": "",
+            "fields": {
+            "name": "Pick and mix Packages",
+            "description": "",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "19.00",
+            "availability": 20,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+         },
+{
+            "model": "shop.product",
+            "pk": "",
+            "fields": {
+            "name": "Couples Packages - Dream team",
+            "description": "Feel weightless as we start off with our floating chamber, desigened to sooth and aid restfullness followed by a 30 min full body massage, a salt scrub and in our miniral splash shower clean off all the days stess ",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "19.00",
+            "availability": 8,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
+        },
+
+{
+            "model": "shop.product",
+            "pk": "",
+            "fields": {
+            "name": "Couples Packages - Bubble Trouble",
+            "description": "Start off with our miniral mudd bath let the bubbles",
+            "category": "9893019f-a1ef-4bdd-a01b-bab3682769a9",
+            "price": "19.00",
+            "availability": 8,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+            }
         }
+        
     
   ]
