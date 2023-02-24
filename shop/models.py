@@ -17,11 +17,11 @@ class Category(models.Model):
         verbose_name = 'category'
         verbose_name_plural = 'categories'
 
-        def get_absolute_url(self):
-            return reverse('shop:products_by_category', args=[self.id])
+    def get_absolute_url(self):
+        return reverse('shop:products_by_category', args=[self.id])
 
-        def __str__(self):
-            return self.name
+    def __str__(self):
+        return self.name
 
 class Product(models.Model):
     id = models.UUIDField(
